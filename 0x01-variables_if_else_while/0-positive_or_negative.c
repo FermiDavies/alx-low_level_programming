@@ -8,9 +8,9 @@
 
 /* betty style doc for function main goes there
  *
- * main - is the known entry point when the run-time code is ready to start executing your program.
+ * main - is the known entry point when the run-time code is to start.
  *
- **/
+ */
 
 int main(void)
 
