@@ -6,7 +6,11 @@
 #include <stdio.h>
 
 
-/* betty style doc for function main goes there */
+/* betty style doc for function main goes there
+ *
+ * main - is the known entry point when the run-time code is ready to start executing your program.
+ *
+ **/
 
 int main(void)
 
