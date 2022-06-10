@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints numbers between 0 to 9
- * (neither 2 nor 4).
+ * print_line - prints straight line n times.
+ * @n: times straight line is printed.
  * Return: no return.
  */
-void print_most_numbers(void)
+void print_line(int n)
 {
 	int i;
 
-	for (i = 48; i < 58; i++)
+	for (i = 0; i < n; i++)
 	{
-		if (i != 50 && i != 52)
-			_putchar(i);
+		_putchar(95);
 	}
 	_putchar('\n');
 }
